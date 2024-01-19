@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landingpage.css">
+    <title>Landingpage</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="section">
+            <ul>
+              <li><a href="#new">New Launch </a></li>
+              <li><a href="#about">Trolley</a></li>
+              <li><a href="#skills">Backpack</a></li>
+              <li><a href="#projects">Duffle</a></li>
+              <li><a href="#resume">Browse more</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>   
+        </div>
+    </div>
+    <div class="background">
+        <div class="image1">
+           <img src="https://www.convenientholidays.com/template/template1/images/testimonials/1.webp"/></div>
+        <h1>IT'S TIME TO </h1>
+        <h2>TRAVEL</h2>
+        <div class="image2">
+           <img src="https://www.convenientholidays.com/uploads/contents/1672925755_0.webp" height="600px"/></div>
+           <div class="ourstory">
+            <h1>OUR STORY</h1>
+            <p>Founded with a passion for wanderlust and a commitment to quality, Journey Junction was born out of the idea that every journey deserves the perfect travel companion. Our story is woven with threads of exploration, discovery, and a deep appreciation for the art of travel.
+                Inspired by the diverse landscapes, cultures, and experiences the world has to offer, our founders set out to create a line of travel bags that not only withstand the rigors of the road but also reflect the spirit of adventure. Every stitch, every design element, and every feature in our bags is a testament to our dedication to enhancing your travel experience.</p></div>
+                <div class="journey">
+                <h1>Join Us on the Journey</h1>
+                <p>Whether you're a seasoned globetrotter or a weekend explorer, we invite you to join us on the journey. Explore our collection, find the perfect travel companion for your next adventure.</p></div>
+           
+           <div class="image3">
+            <img src="https://st3.depositphotos.com/1177973/14710/i/450/depositphotos_147107157-stock-photo-colorful-traveler-bags.jpg" height="300px" />
+           </div>
+    </div>
+    <div class="watchandbuy">
+        <h1>Watch and Buy</h1>
+    </div>
+    <div class="gallery-wrap">
+        <img src="https://cdn-icons-png.freepik.com/128/14056/14056307.png?ga=GA1.1.714637249.1703352464" id="backBtn">
+        <div class="gallery">
+            <div>
+                <span><img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1678819675-be-is-the-work-tote-6410c151371fa.jpg?crop=1xw:1xh;center,top&resize=980:*"/></span>
+                <span><img src="https://i.pinimg.com/236x/72/08/fd/7208fd415ccf847ceff0afdb6ad6bfd6.jpg"/></span>
+                <span><img src="https://mokobara.com/cdn/shop/files/The-Kaleido-Backpack_SG-1.jpg?v=1695026204&width=1000"/></span>
+            </div>
+            <div>
+                <span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQsjjDaSYbd3IM9sRmAMPiFG15PsrNYVlVUQ&usqp=CAU"/></span>
+                <span><img src="https://viatravelers.com/wp-content/uploads/2021/01/KROSER-travel-Tote-bag-1024x771.jpg.webp" height="200px"/></span>
+                <span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7SX5qZ9rWSxWcq9k8-52bCIrQcxMB_Nijfa-NLyNgSTQHXjOt7ULiYLW421ibQXpuxRA&usqp=CAU"/></span>
+            </div>
+        </div>
+        <img src="https://cdn-icons-png.freepik.com/128/14056/14056446.png?ga=GA1.1.714637249.1703352464&semt=ais" id="nextBtn">
+    </div>
+    <script>
+        let scrollContainer=document.querySelector(".gallery")
+        let backBtn=document.getElementById("backBtn");
+        let nextBtn=document.getElementById("nextBtn");
+
+        scrollContainer.addEventListener("wheel",(evt) =>{
+            evt.preventDefault();
+            scrollContainer.scrollLeft += evt.deltaY;
+            scrollContainer.style.scrollBehaviour="auto";
+        });
+        nextBtn.addEventListener("click",()=>{
+            scrollContainer.style.scrollBehaviour="smooth";
+            scrollContainer.scrollLeft += 900;
+        
+        });
+        backBtn.addEventListener("click",()=>{
+            scrollContainer.style.scrollBehaviour="smooth";
+            scrollContainer.scrollLeft -= 900;
+        });
+
+    </script>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email:Info@example.com</p>
+                <p>Phone:+121 56556 565556</p>
+                <p>Address: coimbatore</p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                 <ul class="list">
+                    <li><a href="">New Launch</a></li>
+                    <li><a href="">Trolley</a></li>
+                    <li><a href="">Backpack</a></li>
+                    <li><a href="">Duffle</a></li>
+                    <li><a href="">Browse more</a></li>
+                    <li><a href="">Contact</a></li>
+                 </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="https://github.com/jamunaarunachalam/"><ion-icon name="logo-github"></ion-icon></a>
+                <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"> </script>
+                </ul>
+                </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2023 your company . All rights reserved</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

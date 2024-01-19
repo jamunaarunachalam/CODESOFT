@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section
+{
+    position: absolute;
+    width: 400px;
+    float: left;
+    height: 70px;
+    position: fixed;
+    margin-left: 550px;
+}
+.section ul
+{
+    
+    float: left;
+    display: flex;   
+}
+.section ul li
+{ 
+   
+     list-style: none;
+     margin-left: 52px;
+     margin-top: 27px;
+     font-size: 14px;
+}
+.section ul li a
+{
+    
+    text-decoration: none;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+    transition: 0.45 ease-in-out;
+    
+}
+.section ul li a:hover
+{
+    color: #e98431;
+}
+.icons ion-icon
+{
+    
+    float: left;
+    display:flex;
+    color:rgba(245, 245, 245, 0.822);
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+    
+    
+    
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+
+.background
+{
+    background:rgba(0, 0, 0, 0.7)url("https://img.freepik.com/free-photo/overhead-portrait-stylish-woman-gray-coat-sitting-wooden-table-with-laptop_197531-6748.jpg?w=996&t=st=1703356544~exp=1703357144~hmac=8e7c3fe41f899c77427359b60189191c6099cca83c4c406a42255b65afde178b");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    background-blend-mode: darken;
+    
+}
+
+.navbox
+{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.31);
+}
+.name
+{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 100px;
+    color:#beac37;
+}
+.field
+{
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 150px;
+    color: hsla(0, 0%, 100%, 0.839);
+    font-size: 28px;
+    font-weight: 200px;
+    
+
+    
+}
+.aboutbutton button
+{
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 300px;
+    color: #c4aa19;
+    border-radius: 30px;
+    background-color: rgba(250, 235, 215, 0.301);
+    height: 35px;
+    width: 105px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+    font-weight: 400;
+}
+.aboutbox
+{  
+    
+    height: 740px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.about 
+{
+    position: absolute;
+    color: #c4aa19;
+    margin-top:150px;
+    margin-left: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.about h1{
+    
+    margin-top: 50px;
+    color: white;
+    font-size: 32px;
+}
+.about p1
+{
+    margin-top: 10px;
+    position:absolute;
+    color: rgba(240, 248, 255, 0.564);
+    line-height: 30px;
+    letter-spacing: 2px;
+    width: 400%; 
+    font-size: 20px;    
+}
+.aimage
+{
+    
+    margin-top: 0px; 
+    margin-left: 900px; 
+}
+.aboutbox button
+{
+    position: absolute;
+    margin-top: -50px;
+    margin-left:1100px;
+    background-color: #c4aa19e0;
+    height: 35px;
+    width: 135px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+    font-weight: 400;
+}
+.skillbox
+{
+    
+    height: 750px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.937);
+    
+}
+.skill{
+    position: absolute;
+    color: #c4aa19;
+    margin-top:150px;
+    margin-left: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.bars{
+    margin-bottom: 15px;
+    padding-right: 890px;
+}
+.info{
+    position: relative;
+    display: flex;
+    top:260px;
+    margin-left: 200px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.line{
+    margin-left: 300px;
+    top: 250px;
+    height: 5px;
+    width: 40%;
+    background: lightgrey;
+    position: relative;
+}
+.line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #c4aa19e0;
+}
+.right .html::before{
+    width: 90%;
+}
+.right .css::before{
+    width: 70%;
+}
+.right .js::before{
+    width: 50%;
+}
+.right .java::before{
+    width: 85%;
+}
+.right .mysql::before{
+    width: 75%;
+}
+.projects
+{
+    position: absolute;
+    color: #c4aa19;
+    margin-top:150px;
+    margin-left: 900px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.resumebox
+{
+    height: 300px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.845);
+
+}
+.contactbox
+{
+    
+    height: 720px;
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.789);
+
+}
+.contacticon ion-icon
+{
+    
+    color: white;
+    font-size: 50px;
+    padding-top: 300px;
+    padding-left:  300px;
+    
+}
+
+.contact{
+    position: absolute;
+    font-size: 30px;
+    margin-top:100px;
+    margin-left: 200px;
+    color: #c0a50d;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.getintouch
+{
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 300px;
+    color: rgba(240, 248, 255, 0.564);
+    line-height: 30px;
+    letter-spacing: 2px;
+  
+    font-size: 20px;   
+
+}
+
+.form
+{
+    position: relative;
+    margin-left: 890px;
+    margin-top: -400px;
+    border-radius: 10px;
+   
+    width: 30%;
+    padding: 30px;
+    background:rgba(207, 203, 196, 0.318);
+}
+.form .inputbox input
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline:none;
+    resize: none;
+    background-color:rgba(207, 203, 196, 0);
+
+}
+.form ::placeholder{
+    position: absolute;
+    color: white;
+    padding: 5px 0;
+    left: 5px;
+    top:2px;
+}
+.form button
+{
+    width: 20%;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 20px;
+    border-bottom: 2px solid #333;
+    color: white;
+    background-color: rgba(207, 203, 196, 0.747);
+
+}
+.form button:hover
+{
+    color:#69633e;
+}
+.queries
+{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color:rgba(204, 185, 13, 0.679);
+}
+.projectimage 
+{
+    margin-left: 800px;
+    margin-top: 80px;
+    
+}
+.projectimage img{
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+    opacity: 0.7; 
+    transition: opacity 0.3s ease;
+    outline: 2px solid rgba(204, 185, 13, 0.679);;
+}
+.projectimage img:hover
+{
+    transform: scale(1.1);
+    opacity: 1; 
+    outline: 2px solid rgba(204, 185, 13, 0.679);
+}
+.pimage1
+{
+    
+    font-size: 25px;
+    color: #fff;
+    margin-top: 35px;
+}
+.pimage2
+{
+    
+    font-size: 25px;
+    color: #fff;
+    margin-top: -60px;
+    margin-left: 260px;
+}
+.pimage3
+{
+    
+    font-size: 25px;
+    color: #fff;
+    margin-top: -30px;
+    margin-left: 460px;
+}
+.contacticon ion-icon:hover{
+    color: #ff7200;
+}
+.contacticon ion-icon
+{
+    
+    float: left;
+    display:flex;
+    color:rgba(245, 245, 245, 0.822);
+    font-size: 50px;
+    padding-left: 10px;
+    margin-top: 10px;   
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.contacticon
+{
+    margin-left: 300px;
+}
+.resumebutton a
+{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 100px;
+    font-size: 30px;
+    color: white;
+}
+.resumebutton a:hover
+{
+   color: #beac37; 
+}
+.resumebutton img
+{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 60px;
+    font-size: 30px;
+    color: white;
+}
+.resumebutton p{
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 60px;
+    font-size: 90px;
+    color: rgb(159, 145, 21);
+    font-style: italic;
+}
